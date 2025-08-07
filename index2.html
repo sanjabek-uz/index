@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Talaba Ro'yxatdan O'tish Formasi</h1>
+    <DIv class="BOSHQARUV">
+        <form>
+            <div class="text"><h2>Shaxsiy Ma'lumotlar</h2></div>
+        
+        
+        <label for="firstName">Ism:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Ismingizni kiriting" required="">
+        <br><br>
+        
+        <label for="lastName">Familiya:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Familiyangizni kiriting" required="">
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required="">
+        <br><br>
+        
+        <label for="password">Parol:</label>
+        <input type="password" id="password" name="password" placeholder="Kamida 8 ta belgi" required="">
+        <br><br>
+        
+        <label for="phone">Telefon:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+998 90 123 45 67" required="">
+        <br><br>
+        
+        <label for="birthDate">Tug'ilgan sana:</label>
+        <input type="date" id="birthDate" name="birthDate" required="">
+        <br><br>
+        
+        <label for="age">Yosh:</label>
+        <input type="number" id="age" name="age" min="16" max="60" placeholder="Yoshingiz" required="">
+        <br><br>
+        
+        <label for="website">Shaxsiy veb-sayt (ixtiyoriy):</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+        <br><br>
+        
+        <h2>Kurs Tanlash</h2>
+        
+        <label for="courseSearch">Kurs qidirish:</label>
+        <input type="search" id="courseSearch" name="courseSearch" placeholder="Kurs nomini qidiring...">
+        <br><br>
+        
+        <label>Kurs turi:</label><br>
+        <input type="radio" id="online" name="courseType" value="online" required="">
+        <label for="online">Online</label><br>
+        
+        <input type="radio" id="offline" name="courseType" value="offline" required="">
+        <label for="offline">Offline</label><br>
+        
+        <input type="radio" id="hybrid" name="courseType" value="hybrid" required="">
+        <label for="hybrid">Aralash (Online + Offline)</label><br><br>
+        
+        <label>Qiziquvchi yo'nalishlar:</label><br>
+        <input type="checkbox" id="programming" name="interests" value="programming">
+        <label for="programming">Dasturlash</label><br>
+        
+        <input type="checkbox" id="design" name="interests" value="design">
+        <label for="design">Dizayn</label><br>
+        
+        <input type="checkbox" id="marketing" name="interests" value="marketing">
+        <label for="marketing">Marketing</label><br>
+        
+        <input type="checkbox" id="language" name="interests" value="language">
+        <label for="language">Til o'rganish</label><br><br>
+        
+        <h2>Qo'shimcha Ma'lumotlar</h2>
+        
+        <label for="resume">Rezyume yuklang:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+        <br><br>
+        
+        <label for="experience">Tajriba (yil):</label>
+        <input type="number" id="experience" name="experience" min="0" max="50" placeholder="0">
+        <br><br>
+        
+        <input type="checkbox" id="terms" name="terms" required="">
+        <label for="terms">Shartlar va qoidalar bilan roziman</label><br>
+        
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Yangiliklar xabarnomasini olishni istaman</label><br><br>
+        
+    
+        <button type="submit">Ro'yxatdan O'tish</button>
+        <button type="reset">Tozalash</button>
+    </form>
+    </DIv>
+    
+    
+    <hr>
+    
+    <h2>Vazifa Ko'rsatmalari:</h2>
+    <p><strong>O'quvchilar uchun topshiriq:</strong></p>
+    <ul>
+        <li>Formadagi barcha maydonlarning maqsadini tushuntiring</li>
+        <li>Har bir input elementining type atributini aniqlang</li>
+        <li>Qaysi maydonlar majburiy (required) ekanligini ko'rsating</li>
+        <li>Label va input elementlari orasidagi bog'lanishni tushuntiring</li>
+        <li>Placeholder va value atributlari orasidagi farqni ayting</li>
+        <li>Radio button va checkbox orasidagi farqni aniqlang</li>
+    </ul>
+    
+</body>
+</html>
